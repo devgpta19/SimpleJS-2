@@ -35,4 +35,6 @@ document.querySelector("#btn").addEventListener("click", function(){
         ease:Expo.easeInOut,
         delay:0.3
     })
+
+    document.querySelector("#btn").style.display = "none";
 })
